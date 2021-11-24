@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/2433ba4624.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+<style>.fas{pointer-events: none;}</style>
+    <div class="container" style="margin-top: 2%;">
+        <h1 style="text-align: center;">Rehber Uygulaması</h1>
+        <div id="alert-box">
+        </div>
+        <form id="form-rehber" action="#">
+            <div class="form-group">
+                <label for="name">
+                    Ad
+                </label>
+                <input type="text" id="input" class="form-control ad-input" placeholder="Ad">
+            </div>
+            <div class="form-group">
+                <label for="surname">
+                    Soyad
+                </label>
+                <input type="text" id="input" class="form-control soyad-input" placeholder="Soyad">
+            </div>
+            <div class="form-group">
+                <label for="email">
+                    Email
+                </label>
+                <input type="email" id="input" class="form-control email-input" placeholder="Email">
+            </div>
+            <input type="submit" class="btn btn-outline-primary btn-block" id="kaydet-button" value="Kaydet">
+        </form>
+        <br>
+        <br>
+        <div class="table-responsive">
+            <table class="table">
+                <thead class="thead-dark" style="text-align: center">
+                    <th>Ad</th>
+                    <th>Soyad</th>
+                    <th>Email</th>
+                    <th>Islem</th>
+                </thead>
+                <tbody class="rehber-listesi">
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
