@@ -1,2 +1,1 @@
-# contact-app
-Example Basic Person Directory App
+# Example Basic Person Directory App
